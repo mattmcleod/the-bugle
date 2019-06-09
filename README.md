@@ -1,68 +1,15 @@
-*Psst — looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
+An alternative to the fantastic [Bugle Podcast Archive](http://www.gamesplusone.com/thebugle/).
 
----
+Built with Svelte, using CSS Grid for layout. Responsive.
+Grabs audio files from a mirror hosted on Digital Ocean.
 
-# svelte app
+Baby's First Svelte Project.
 
-This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
+Worse than a static HTML page in that it does nothing that a
+static HTML page wouldn't, but uses JavaScript to do so. Plan
+is to add an audio player, playback state tracking, and various
+other nice things that you'd get with a podcast player.
 
-To create a new project based on this template using [degit](https://github.com/Rich-Harris/degit):
-
-```bash
-npx degit sveltejs/template svelte-app
-cd svelte-app
-```
-
-*Note that you will need to have [Node.js](https://nodejs.org) installed.*
-
-
-## Get started
-
-Install the dependencies...
-
-```bash
-cd svelte-app
-npm install
-```
-
-...then start [Rollup](https://rollupjs.org):
-
-```bash
-npm run dev
-```
-
-Navigate to [localhost:5000](http://localhost:5000). You should see your app running. Edit a component file in `src`, save it, and reload the page to see your changes.
-
-
-## Deploying to the web
-
-### With [now](https://zeit.co/now)
-
-Install `now` if you haven't already:
-
-```bash
-npm install -g now
-```
-
-Then, from within your project folder:
-
-```bash
-now
-```
-
-As an alternative, use the [Now desktop client](https://zeit.co/download) and simply drag the unzipped project folder to the taskbar icon.
-
-### With [surge](https://surge.sh/)
-
-Install `surge` if you haven't already:
-
-```bash
-npm install -g surge
-```
-
-Then, from within your project folder:
-
-```bash
-npm run build
-surge public
-```
+(Why not just use a podcast player? None of them do well with
+this sort of archival material that is no longer hosted properly
+as a podcast. And I wanted a project!)
