@@ -26,6 +26,8 @@ based on the work done by the fine folks at <a href="http://www.gamesplusone.com
 <p>The only real point of this vs the original is that I wanted
 a simple project to poke at <a href="https://svelte.dev/">SvelteJS</a> and <a href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Grid</a>.</p>
 
+<p>Source, such as it is, <a href="https://github.com/mattmcleod/the-bugle">on Github</a>.</p>
+
 <h2>Todo</h2>
 <p>Build an audio player into the page, track played status.</p>
 
