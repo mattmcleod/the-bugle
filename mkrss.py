@@ -14,7 +14,7 @@ def main():
     p = Podcast(
         name="TimesOnLine Bugle Archive",
         description="Old Bugle episodes, podcast feed",
-        website="http://example.org/animals-alphabetically",
+        website="https://www.thebuglepodcast.com/",
         explicit=False,
     )
     
